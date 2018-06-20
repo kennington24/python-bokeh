@@ -20,7 +20,7 @@ color_list = []
 for vertex in graph_data.vertexes:
   color_list.append(vertex.color)
 
-plot = figure(title='Graph Layout Demonstration', x_range=(-1, 1), y_range=(-1, 1),
+plot = figure(title='Graph Layout Demonstration', x_range=(-250, 400), y_range=(-250, 400),
               tools='', toolbar_location=None)
 
 graph = GraphRenderer()
